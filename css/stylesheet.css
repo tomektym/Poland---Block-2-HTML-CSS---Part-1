@@ -163,15 +163,13 @@ padding-bottom: 9px;
 	color : #5E4E4E;
 	font-size: 20px;
 	text-align: justify;
-		
-	}
-	#content img {
+		}
+#content img {
 	padding-left: 0px;
 	padding-right: 20px;
 	}
 #naglowek {
-	margin: auto;
-	width: 200px;
+	width: 100px;
 	text-align : center;
 	font-size: 26px;
 	padding-top: 0px;
