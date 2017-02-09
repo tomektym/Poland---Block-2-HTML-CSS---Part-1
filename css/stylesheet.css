@@ -4,6 +4,7 @@ body 	{
 	margin : 0;
 	padding :0;
 	font-family : Arial;
+	
 	background-attachment: fixed;
 	}
 #wrapper {
@@ -16,37 +17,33 @@ body 	{
 	padding-right:0px;
 	}
 #header {
-	width : 960px;
-	height : 200px;
-	padding-top: 4px;
-	margin-bottom: 0px;
-	background-image: url('../img/sand.jpg');
+	overflow: auto;
+	padding: 30px;
 		}
 #header > img {
-	margin-left: 40px;
-	margin-top: 20px;
+	
+	
 }
-#text {
-	font-family: Arial;
-	font-size: 1.8cm;
-	padding-left: 4px;
+#header_big {
+	float: right;
+	font-size: 2.8em;
 	color: #644E4E;
-	padding-right: 50px;
 	letter-spacing : 1px;
 	float: right;
+	
 	
   	}
 		
 #social {
 	text-align: center;
 	float : right;
-	margin : 0px 0px 0px 0px;
+	margin : 0;
 	
 	}
 #social ul li {
-	float : right;
-	list-style : none;
-	padding-right : 55px;
+	float: right;
+	text-decoration: none;
+	list-style:none;
 	padding-left: 30px;
 	}
 #social img {
