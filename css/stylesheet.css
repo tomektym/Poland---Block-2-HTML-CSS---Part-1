@@ -6,6 +6,15 @@ body 	{
 	font-family : Arial;
 	background-attachment: fixed;
 	}
+@font-face
+
+{
+
+font-family: PuppyBellies;
+
+src:url('../fonts/PuppyBellies.otf');
+
+}
 #wrapper {
 	width : 960px;
 	height : auto;
@@ -16,24 +25,21 @@ body 	{
 	padding-right:0px;
 	}
 #header {
-	width : 960px;
-	height : 200px;
-	padding-top: 4px;
-	margin-bottom: 0px;
-	background-image: url('../img/sand.jpg');
+	padding: 30px;
+	overflow: auto;
+	
+	
 		}
 #header > img {
-	margin-left: 40px;
-	margin-top: 20px;
+
 }
-#text {
-	font-family: Arial;
-	font-size: 1.8cm;
-	padding-left: 4px;
+#header_2 {
 	color: #644E4E;
-	padding-right: 50px;
 	letter-spacing : 1px;
 	float: right;
+	font-size: 4em;
+	font-family: PuppyBellies;
+	margin-right: 20px;
 	
   	}
 		
@@ -55,7 +61,6 @@ body 	{
 		
 #sidebar {
 	float : left;
-	background-image: url('../img/sand.jpg');
 	border-top: 1px solid #644E4E;
 	padding-top: 0px;
 	}
@@ -104,7 +109,7 @@ body 	{
 	letter-spacing : 1px;
 	color : #5E4E4E;
 	font-size: 14px;
-	background-image: url('../img/sand.jpg');
+	
 	}
 #content img {
 	padding-left: 0px;
